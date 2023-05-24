@@ -41,7 +41,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [P
 $ git clone https://github.com/BadPingHere/WynnBuildDB
 
 # Go into the repository
-$ cd Trusted
+$ cd WynnBuildDB
 
 # Run a development server
 $ php -S localhost:8000
@@ -52,7 +52,7 @@ $ php -S localhost:8000
 
 ## Download
 
-You can [download](https://github.com/BadPingHere/WynnBuildDB/releases/latest) the latest installable version of Trusted for Windows, macOS and Linux.
+You can [download](https://github.com/BadPingHere/WynnBuildDB/releases/latest) the latest installable version of WynnBuildDB for Windows, macOS and Linux.
 
 ## Credits
 
