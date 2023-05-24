@@ -154,7 +154,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </form>
   </main>
   <footer style="margin-top: auto; text-align: center">
-    <a class="privacy" href="privacy.html">Privacy Policy</a>
+    <a class="privacy" href="../privacy.html">Privacy Policy</a>
   </footer>
 </body>
 
