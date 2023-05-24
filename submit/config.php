@@ -1,5 +1,5 @@
 <?php
-$ini_array = parse_ini_file("secret.ini", true); 
+$ini_array = parse_ini_file("secret.ini", true);
 # Gets creds from file not posted on github. If you would like to copy, use a format like this
 # [STRINGS]
 # DB_SERVER = server
