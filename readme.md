@@ -13,7 +13,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://cdn.upload.systems/uploads/5jqKu6uB.png)
+![screenshot](https://cdn.upload.systems/uploads/d9nABUFr.png)
 
 ## Key Features
 
