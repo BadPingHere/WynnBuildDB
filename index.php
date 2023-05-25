@@ -59,6 +59,7 @@
           <th>Quest Req</th>
           <th>Crafted's</th>
           <th>Legendary Island Req</th>
+          <th>Boss altar Req</th>
           <th>Min lvl</th>
           <th>Date Posted</th>
           <th>Link</th>
@@ -78,6 +79,7 @@
             print '<td><img class="coinflip-icon" src="./img/' . $row['conQuest'] . '.png" /></td>';
             print '<td><img class="coinflip-icon" src="./img/' . $row['conCrafted'] . '.png" /></td>';
             print '<td><img class="coinflip-icon" src="./img/' . $row['conLI'] . '.png" /></td>';
+            print '<td><img class="coinflip-icon" src="./img/' . $row['conAltar'] . '.png" /></td>';
             print '<td>' . $row['minlvl'] . '</td>';
             print '<td>' . $row['date'] . '</td>';
             print '<td><a href="' . $row['link'] . '" target="_blank" rel="noopener noreferrer"><img class="coinflip-icon" src="./img/link.png" /></a></td>';
@@ -110,6 +112,7 @@
           <th>Quest Req</th>
           <th>Crafted's</th>
           <th>Legendary Island Req</th>
+          <th>Boss altar Req</th>
           <th>Min lvl</th>
           <th>Date Posted</th>
           <th>Link</th>
@@ -129,6 +132,7 @@
             print '<td><img class="coinflip-icon" src="./img/' . $row['conQuest'] . '.png" /></td>';
             print '<td><img class="coinflip-icon" src="./img/' . $row['conCrafted'] . '.png" /></td>';
             print '<td><img class="coinflip-icon" src="./img/' . $row['conLI'] . '.png" /></td>';
+            print '<td><img class="coinflip-icon" src="./img/' . $row['conAltar'] . '.png" /></td>';
             print '<td>' . $row['minlvl'] . '</td>';
             print '<td>' . $row['date'] . '</td>';
             print '<td><a href="' . $row['link'] . '" target="_blank" rel="noopener noreferrer"><img class="coinflip-icon" src="./img/link.png" /></a></td>';
@@ -161,6 +165,7 @@
           <th>Quest Req</th>
           <th>Crafted's</th>
           <th>Legendary Island Req</th>
+          <th>Boss altar Req</th>
           <th>Min lvl</th>
           <th>Date Posted</th>
           <th>Link</th>
@@ -180,6 +185,7 @@
             print '<td><img class="coinflip-icon" src="./img/' . $row['conQuest'] . '.png" /></td>';
             print '<td><img class="coinflip-icon" src="./img/' . $row['conCrafted'] . '.png" /></td>';
             print '<td><img class="coinflip-icon" src="./img/' . $row['conLI'] . '.png" /></td>';
+            print '<td><img class="coinflip-icon" src="./img/' . $row['conAltar'] . '.png" /></td>';
             print '<td>' . $row['minlvl'] . '</td>';
             print '<td>' . $row['date'] . '</td>';
             print '<td><a href="' . $row['link'] . '" target="_blank" rel="noopener noreferrer"><img class="coinflip-icon" src="./img/link.png" /></a></td>';
@@ -250,8 +256,9 @@
             6: { sorter: "imageSrc", filter: false },
             7: { sorter: "imageSrc", filter: false },
             8: { sorter: "imageSrc", filter: false },
-            10: { sorter: "shortDate", filter: false },
-            11: { sorter: false, filter: false },
+            9: { sorter: "imageSrc", filter: false },
+            11: { sorter: "shortDate", filter: false },
+            12: { sorter: false, filter: false },
           },
         })
         .tablesorterPager({
@@ -299,8 +306,9 @@
             6: { sorter: "imageSrc", filter: false },
             7: { sorter: "imageSrc", filter: false },
             8: { sorter: "imageSrc", filter: false },
-            10: { sorter: "shortDate", filter: false },
-            11: { sorter: false, filter: false },
+            9: { sorter: "imageSrc", filter: false },
+            11: { sorter: "shortDate", filter: false },
+            12: { sorter: false, filter: false },
           },
         })
         .tablesorterPager({
@@ -348,8 +356,9 @@
             6: { sorter: "imageSrc", filter: false },
             7: { sorter: "imageSrc", filter: false },
             8: { sorter: "imageSrc", filter: false },
-            10: { sorter: "shortDate", filter: false },
-            11: { sorter: false, filter: false },
+            9: { sorter: "imageSrc", filter: false },
+            11: { sorter: "shortDate", filter: false },
+            12: { sorter: false, filter: false },
           },
         })
         .tablesorterPager({

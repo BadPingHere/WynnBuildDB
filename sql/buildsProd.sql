@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: May 23, 2023 at 11:04 PM
--- Server version: 10.3.38-MariaDB-log-cll-lve
+-- Generation Time: May 24, 2023 at 09:21 PM
+-- Server version: 10.5.20-MariaDB-cll-lve-log
 -- PHP Version: 7.4.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -38,6 +38,7 @@ CREATE TABLE `buildsProd` (
   `conQuest` varchar(999) NOT NULL,
   `conCrafted` varchar(999) NOT NULL,
   `conLI` varchar(999) NOT NULL,
+  `conAltar` varchar(999) NOT NULL,
   `minlvl` int(255) NOT NULL,
   `date` varchar(999) NOT NULL,
   `link` varchar(999) NOT NULL
