@@ -27,6 +27,8 @@
   - A easy to use switcher between all types of tables.
   - Sleek and elegent hamburger menu.
   - Easily change days and users.
+- Semi-Automated Submission.
+  - Takes in the user input via forum, and decodes the url to get the rest of the table values
 - Multi-Browser use
   - Works on both Chromium based browser like Chrome and Edge, along with Quantum based browsers like Firefox and Tor.
 - Cross platform
@@ -58,6 +60,7 @@ You can [download](https://github.com/BadPingHere/WynnBuildDB/releases/latest) t
 
 This software uses the following open source projects:
 
+- [hppeng-wynn.github.io](https://github.com/hppeng-wynn/hppeng-wynn.github.io)
 - [Tablesorter](https://mottie.github.io/tablesorter/docs/example-pager.html)
 - [FontAwesome](https://fontawesome.com/)
 - [Jquery](https://jquery.com/)
