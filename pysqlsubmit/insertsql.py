@@ -53,7 +53,7 @@ def parse_hash(url_tag):
                 start_idx += 18
             else:
                 equipment_str = info_str[start_idx : start_idx + 3]
-                conCrafted = "false"
+                conCrafted = "x"
                 equipment[i] = getItemNameFromID(base64_to_int(equipment_str))
                 start_idx += 3
         data_str = info_str[start_idx:]
@@ -72,7 +72,7 @@ def parse_hash(url_tag):
                 start_idx += 3 + len_1
             else:
                 equipment_str_1 = info_str[start_idx : start_idx + 3]
-                conCrafted = "false"
+                conCrafted = "x"
                 equipment[i] = getItemNameFromID(base64_to_int(equipment_str_1))
                 start_idx += 3
         data_str = info_str[start_idx:]
@@ -192,3 +192,12 @@ def sqlsub(name):
 ('"""+str(classURL)+"""', '"""+str(creator)+"""', '"""+str(buildTitle)+"""', '"""+str(buildDesc)+"""', '"""+str(conMythic)+"""', '"""+str(conQuest)+"""', '"""+str(conCrafted)+"""', '"""+str(conLI)+"""', '"""+str(conAltar)+"""', '"""+str(minlvl)+"""', '"""+str(date)+"""', '"""+str(link)+"""')"""
 
 pyperclip.copy(sqlsub('sqlProd')) # sqlProd, sqlProdLR, sqlProdXP
+
+print("""
+      conMythic:"""+str(conMythic)+"""
+      conQuest:"""+str(conQuest)+"""
+      conCrafted:"""+str(conCrafted)+"""
+      conLI:"""+str(conLI)+"""
+      conAltar:"""+str(conAltar)+"""
+      minlvl:"""+str(minlvl)+"""""")
+print('Copied to clipboard.')
